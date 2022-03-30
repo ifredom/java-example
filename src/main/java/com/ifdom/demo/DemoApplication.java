@@ -16,8 +16,9 @@ public class DemoApplication {
     private static void test() {
         Recursion recursion = new Recursion();
 
-        int result2 = recursion.fibonacci(2);
-        log.info("fabonacci value is {}", result2);
+        int result2 = recursion.monkeyEatPeach(9);
+        log.info(" value is {}", result2);
+        
     }
 }
 
@@ -65,6 +66,24 @@ class Recursion {
             }
         } else {
             return -1;
+        }
+    }
+
+    /**
+     * 猴子吃桃
+     * ? 每天吃一半，再多吃一个，一共10天，最后剩下一个，求最初总数量？
+     * 1. day = 10, 1
+     * 2. day = 9, return (day8+1)*2
+     * 3. day = 8, return (day7+1)*2
+     *
+     * @param day
+     * @return
+     */
+    public int monkeyEatPeach(int day) {
+        if (day == 10) {
+            return 1;
+        } else {
+            return (monkeyEatPeach(day + 1) + 1) * 2;
         }
     }
 }
