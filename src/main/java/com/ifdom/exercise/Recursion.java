@@ -1,4 +1,4 @@
-package com.ifdom.demo;
+package com.ifdom.exercise;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package com.ifdom.demo;
+package com.ifdom.exercise;
 
 public class EightQueen {
 
