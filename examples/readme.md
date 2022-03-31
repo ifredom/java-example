@@ -15,12 +15,15 @@
 - this.methodName()
 - super.methodName()
 
-## 多态
+## [多态](https://www.bilibili.com/video/BV1fh411y7R8?p=315)
 
 - 编译类型看等号左边，运行类型看等号右边
 - 向上转型
 - 向下转型 只能强转父类引用，不能转换父类对象 `Cat cat = (Cat) animal;`
-- 属性值不存在重写，使用等号左边的编译类型 ⭐⭐⭐⭐⭐
+- 1.属性值不存在重写，使用等号左边的编译类型 ⭐⭐⭐⭐⭐
+- 2.方法存在重写，使用运行类型 ⭐⭐⭐⭐⭐
+- instanceof  判断对象运行类型⭐⭐⭐⭐⭐
+- == 比较的是对象地址
 
 ```java
 package com.ifdom.polymorphic;
@@ -59,6 +62,10 @@ public class Polymorphic {
 
 }
 ```
+## 多态动态绑定机制
+
+
+
 
 ### 快捷键
 
