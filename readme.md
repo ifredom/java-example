@@ -58,6 +58,24 @@ class Recursion {
             return -1;
         }
     }
+
+    /**
+     * 猴子吃桃
+     * ? 每天吃一半，再多吃一个，一共10天，最后剩下一个，求最初总数量？
+     * 1. day = 10, 1
+     * 2. day = 9, return (day8+1)*2
+     * 3. day = 8, return (day7+1)*2
+     *
+     * @param day
+     * @return
+     */
+    public int monkeyEatPeach(int day) {
+        if (day == 10) {
+            return 1;
+        } else {
+            return (monkeyEatPeach(day + 1) + 1) * 2;
+        }
+    }
 }
 ```
 
@@ -67,3 +85,7 @@ class Recursion {
 2. 迷宫问题
 3. 球和篮子问题
 4. 八皇后问题
+
+### 快捷键
+
+ ctrl + alt + l
