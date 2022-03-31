@@ -18,7 +18,7 @@ public class DemoApplication {
 
         int result2 = recursion.monkeyEatPeach(9);
         log.info(" value is {}", result2);
-        
+
     }
 }
 
@@ -29,6 +29,7 @@ public class DemoApplication {
  */
 @Slf4j
 class Recursion {
+
     public void test(int n) {
         if (n > 1) {
             test(n - 1);
