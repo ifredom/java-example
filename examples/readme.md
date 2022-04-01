@@ -62,9 +62,18 @@ public class Polymorphic {
 
 }
 ```
-## 多态动态绑定机制
+## 多态动态绑定机制 dynamicbingding
 
 
+## 方法
+- 使用条件判断时，找出不正确的条件，避免if-else
+
+## debug
+
+
+- F7 单步跳入
+- F8 单步跳出
+- F9 断点跳出
 
 
 ### 快捷键

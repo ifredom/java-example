@@ -10,6 +10,10 @@ public class Polyarr {
         people[3] = new Teacher("hans", 18, 1000);
         people[4] = new Teacher("jinxing", 19, 2000);
 
+
+        System.out.println(people[0]);
+        System.out.println(people[0].toString());
+
         for (int i = 0; i < people.length; i++) {
             System.out.println(people[i].say());
             if( people[i] instanceof Student){
