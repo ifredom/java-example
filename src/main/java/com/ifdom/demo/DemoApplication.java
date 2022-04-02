@@ -1,8 +1,7 @@
 package com.ifdom.demo;
 
-import com.ifdom.extend.Pupil;
+import com.ifdom.designmode.SingleInstance;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
@@ -12,21 +11,24 @@ public class DemoApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(DemoApplication.class, args);
 
-        Pupil pupil = new Pupil("jack");
-        log.info(pupil.name);
-        pupil.fun1();
-        pupil.fun1();
-        int sum = 0;
+        SingleInstance test = SingleInstance.getInstance("小红");
+        SingleInstance test2 = SingleInstance.getInstance("小绿");
 
-        for (int i = 0; i < 10; i++) {
-            sum+=i;
-            System.out.println(i);
+        System.out.println(test);
+        System.out.println(test2);
+        System.out.println(test == test2);
+    }
+}
 
-        }
+class Test {
 
-        System.out.println(sum);
+    public Test() {
+        System.out.println("Test constructor");
     }
 
-
-
+    {
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+    }
 }
