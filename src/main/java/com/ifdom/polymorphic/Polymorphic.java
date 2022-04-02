@@ -2,6 +2,9 @@ package com.ifdom.polymorphic;
 
 /**
  * 多态
+ *
+ * 接口 与 继承  在多态方面的区别，在下方。
+ * 接口的多态传递现象：接口也可以使用extend去继承接口
  */
 public class Polymorphic {
 
@@ -30,6 +33,29 @@ public class Polymorphic {
 
         ifredom.feed( tom, bood);
         ifredom.feed(jimmy,fish);
+
+
+
+        // 演示接口的多态性
+        IF monster = new Monster();
+        IF bird = new Bird();
+        monster = new Bird();
+
+        // 演示继承的多态性
+        AA aa = new BB();
+        AA cc = new CC();
+        aa = new CC();
+
     }
 
 }
+
+
+interface IF{}
+class Monster implements IF{}
+class Bird implements IF{}
+
+
+class AA{}
+class BB extends AA{}
+class CC extends AA{}

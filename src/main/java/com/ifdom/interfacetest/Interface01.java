@@ -9,6 +9,8 @@ package com.ifdom.interfacetest;
  * 2. 接口中的所有方法都是public访问权限，所有方法都是抽象方法， abstract 被省略
  * 3. 抽象类 interface 接口后，可以不实现接口方法
  * 4. 接口中的属性都是 public static final num =1 (并且必须被初始化)
+ *
+ *
  */
 public interface Interface01 {
     int num = 1;
