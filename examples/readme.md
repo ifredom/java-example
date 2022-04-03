@@ -68,6 +68,45 @@ public class Polymorphic {
 ## 方法
 - 使用条件判断时，找出不正确的条件，避免if-else
 
+静态方法访问作用域
+```java
+
+package com.ifdom.demo;
+
+import com.ifdom.extend.Pupil;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@Slf4j
+@SpringBootApplication
+public class DemoApplication {
+
+
+    public static void main(String[] args) {
+//        SpringApplication.run(DemoApplication.class, args);
+        XX xx = new XX();
+        xx.custom();
+    }
+}
+
+class XX {
+    public static int count = 0;
+    public static void test() {
+        System.out.println(XX.count);
+    }
+    public static void add() {
+        XX.count++;
+    }
+    public  void custom() {
+        count++;
+        System.out.println(count);
+        add();
+        System.out.println(XX.count);
+    }
+}
+```
+
 ## debug
 
 
