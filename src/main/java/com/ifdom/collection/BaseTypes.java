@@ -1,4 +1,4 @@
-package com.ifdom;
+package com.ifdom.collection;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -22,7 +22,7 @@ public class BaseTypes {
         String sortString = reverse("abcdefgh", 1, 7);
 
         System.out.println(sortString);
-
+        testInteger();
 
     }
 
@@ -82,5 +82,18 @@ public class BaseTypes {
         String q = m + n;
         String p = "abcdef";
         System.out.println(q == p); // f
+    }
+
+    // -128-127使用缓存数据，也就是常量池中的数据
+    private static void testInteger() {
+        Integer integer = Integer.valueOf(127);
+        Integer integer2 = 127;
+        System.out.println(integer == integer2); // true
+
+
+        Integer integer3 = Integer.valueOf(128);
+        Integer integer4 = 128;
+        System.out.println(integer3 == integer4); // false
+
     }
 }
