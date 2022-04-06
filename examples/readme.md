@@ -125,6 +125,7 @@ class XX {
 - alt + 回车 快速创建变量名称
 - ctrl + d 复制当前行
 - shift + enter 向下新建一行
-- ctrl +alt +enter 向上新建一行
+- ctrl + alt + enter 向上新建一行
+- ctrl + alt + T try...catch 快速生成
 - 先按下home 或者end , shift + home / shift +end 选中当前行
 - 迭代器快捷键 itit   ,方式二 ： 大写的 I +回车 生成增强for循环

@@ -17,6 +17,11 @@
 - BufferedInputStream
 - ObjectInputStream
 
+包装流
+
+- BufferedRead / BufferedWrite  节点 字符流
+- BufferedInputStream / BufferedOutputStream  节点 字节流
+- 
 ## 文件操作
 
 一个英文字符一个字节，一个中文3个字节

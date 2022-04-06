@@ -101,13 +101,14 @@ public class InputStreamTest {
 
         // 定义一个字节数组
         byte[] buf = new byte[1024];
+        int readLen = 0;
         try {
             File file = new File(filePath);
 
             fileInputStream = new FileInputStream(filePath);
             fileOutputStream = new FileOutputStream(destPath);
 
-            while (fileInputStream.read(buf) != -1) {
+            while ((readLen=fileInputStream.read(buf)) != -1) {
                 fileOutputStream.write(buf);
             }
         } catch (IOException e) {
