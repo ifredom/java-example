@@ -17,6 +17,8 @@ public class DecoratorMode {
         wildGoose.flyThenSwing();
         wildGoose.flyFifth();
 
+        System.out.println("====================");
+
         PerformerBird sparrow = new PerformerBird(new Sparrow());
         sparrow.flyFifth();
 
@@ -30,6 +32,11 @@ class PerformerBird extends Bird {
 
     public PerformerBird(Bird bird) {
         this.bird = bird;
+    }
+
+    @Override
+    public void fly() {
+        this.bird.fly();
     }
 
     /**
@@ -52,9 +59,13 @@ class PerformerBird extends Bird {
 
 
 class WildGoose extends Bird {
-
+    @Override
     public void fly() {
-        System.out.println("大雁飞");
+        wildGooseFly();
+    }
+
+    public void wildGooseFly() {
+        System.out.println("大雁的雁行飞行方式");
     }
 }
 
@@ -62,18 +73,18 @@ class Sparrow extends Bird {
 
     @Override
     public void fly() {
-        System.out.println("麻雀飞");
+        sparrowFly();
     }
-    public void eat() {
-        System.out.println("麻雀eat");
+    public void sparrowFly() {
+        System.out.println("麻雀独特的飞行方式");
     }
 }
 
 // 抽象方法必须实现
+// 1. 不使用抽象装饰 fly方法
+// 2. 优化 => 使用抽象方法装饰 fly方法
 abstract class Bird {
-    public void fly(){
-        System.out.println("鸟 飞");
-    };
+    abstract void fly();
 
 //    abstract void shit();
 
