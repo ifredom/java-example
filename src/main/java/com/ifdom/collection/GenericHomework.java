@@ -28,7 +28,7 @@ public class GenericHomework {
         System.out.println(userDAO.get("jackId"));
 
         User jenny = new User(500, 500, "jenny");
-        userDAO.update("jackId",jenny);
+        userDAO.update("jackId", jenny);
 
         System.out.println(userDAO.get("jackId"));
         System.out.println(userDAO.list());
@@ -51,19 +51,19 @@ class DAO<T> {
     }
 
     public void update(String id, T entity) throws RuntimeException {
-        if(!subs.containsKey(id)){
+        if (!subs.containsKey(id)) {
             throw new RuntimeException("not found the id");
         }
-        subs.put(id,entity);
+        subs.put(id, entity);
     }
 
     public List<T> list() {
-        Set<Map.Entry<String, T>> entries = subs.entrySet();
-        List<T> ts = new ArrayList<>();
-        for (T user : subs.values()) {
-            ts.add(user);
+        Set<String> entries = subs.keySet();
+        List<T> list = new ArrayList<>();
+        for (String key : entries) {
+            list.add(subs.get(key));
         }
-        return ts;
+        return list;
     }
 
     public void delete(String id) {
