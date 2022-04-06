@@ -21,6 +21,22 @@ import java.util.*;
  *  Vector: 线程安全，效率不高  扩容机制: 基础大小 10 + X * 2
  *  ArrayList: 线程不安全， 效率高  扩容机制: 基础大小 10 + X * 1.5
  *  LinkedList: 线程不安全，效率最高(增删) 效率最低（该查）， 底层机制 双向链表 和 双端队列
+ *
+ *
+ *  使用：
+ *  单列允许重复：
+ *  增删多 LinkedList
+ *  改查多 ArrayList
+ *
+ *  不允许重复
+ *  无序： HashSet
+ *  排序： TreeSet
+ *  插入取出顺序一致 LinkedHashSet
+ *
+ *  双列
+ *  键无序： HashMap
+ *  键有序： TreeMap
+ *  插入取出顺序一致: LinkedHashMap
  */
 public class CollectTest {
     @SuppressWarnings("all")

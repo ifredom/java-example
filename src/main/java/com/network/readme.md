@@ -12,3 +12,11 @@
 
 - 字节流： InputStream , OutputStream
 - 字符流： Reader, Writer
+
+- FileInputStream
+- BufferedInputStream
+- ObjectInputStream
+
+## 文件操作
+
+一个英文字符一个字节，一个中文3个字节
