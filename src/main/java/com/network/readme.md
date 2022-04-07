@@ -1,7 +1,17 @@
-#  I/O流 & 网络编程
+#  网络编程
+
+- IP
+- TCP编程
+- UDP编程
+- 发送/接受Email
+- Applet基础
+- HTTP编程
+- Socket网络编程
+- RMI远程调用
 
 
 
+常见网络端口号： tomcat:8080 mysql:3306 oracal:1521 sqlserver:1433
 
 ## I/O
 
