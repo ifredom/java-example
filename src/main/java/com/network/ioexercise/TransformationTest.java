@@ -1,10 +1,9 @@
-package com.network.demo;
+package com.network.ioexercise;
 
 
 import org.junit.Test;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 
 /**
  * 转换流

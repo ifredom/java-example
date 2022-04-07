@@ -1,4 +1,4 @@
-package com.network.demo;
+package com.network.ioexercise;
 
 import java.io.*;
 
