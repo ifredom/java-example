@@ -38,12 +38,16 @@ public class TCPFileUploadServer {
         // 4. 给客户端回复一个收到了的消息
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
-        bufferedWriter.write("服务端: 已经收到图片了");
+        bufferedWriter.write("服务端: 已经收到图片了\r\n");
         bufferedWriter.flush();
-        socket.shutdownOutput();// 设置结束标记
+
+
+        bufferedWriter.write("服务端: 我还想多说一句");
+        bufferedWriter.flush();
+
+//                socket.shutdownOutput();// 设置结束标记
 
         // 关闭，关闭的时候会自动刷新
-
         bufferedWriter.close();
         bis.close();
         socket.close();
