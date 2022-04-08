@@ -1,4 +1,4 @@
-package com.network.ioexercise.networkmain;
+package com.jdbc.network.ioexercise.networkmain;
 
 import java.io.*;
 import java.net.ServerSocket;

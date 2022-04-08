@@ -1,4 +1,4 @@
-package com.network.ioexercise.homework;
+package com.jdbc.network.ioexercise.homework;
 
 import java.io.*;
 import java.net.InetAddress;

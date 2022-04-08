@@ -1,4 +1,4 @@
-package com.network.ioexercise.homework;
+package com.jdbc.network.ioexercise.homework;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

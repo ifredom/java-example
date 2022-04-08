@@ -1,4 +1,4 @@
-package com.network.ioexercise;
+package com.jdbc.network.ioexercise;
 
 
 import org.junit.Test;
