@@ -11,6 +11,8 @@
 
 
 
+> 指令： netstat -an | more
+> > 指令： netstat -anb
 常见网络端口号： tomcat:8080 mysql:3306 oracal:1521 sqlserver:1433
 
 ## I/O

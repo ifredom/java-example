@@ -22,6 +22,7 @@ public class CharSocketServer {
         bufferedWriter.write("字符流：服务端发送的返回信息");
         bufferedWriter.newLine(); // 插入换行符，表示写入内容结束
         bufferedWriter.flush();// 使用字符流，需要手动刷新，否则不会将数据写入通道
+//        socket.shutdownOutput();  // 发送完成标记
 
 
         // 关闭流和socket
