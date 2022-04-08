@@ -1,4 +1,4 @@
-package com.jdbc.network.ioexercise.networkmain;
+package com.network.ioexercise.networkmain;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

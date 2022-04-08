@@ -86,6 +86,6 @@ class Sparrow extends Bird {
 abstract class Bird {
     abstract void fly();
 
-//    abstract void shit();
+//    public void fly();
 
 }

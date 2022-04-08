@@ -1,4 +1,4 @@
-package com.jdbc.network.ioexercise;
+package com.network.ioexercise;
 
 import java.io.*;
 

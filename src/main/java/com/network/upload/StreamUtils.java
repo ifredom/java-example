@@ -1,4 +1,4 @@
-package com.jdbc.network.upload;
+package com.network.upload;
 
 import java.io.*;
 
