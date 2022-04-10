@@ -18,7 +18,7 @@ public class StatementTest {
         String url = "jdbc:mysql://localhost:3306/firstdemo";
 
         Properties properties = new Properties();
-        properties.setProperty("user", "root");
+        properties.setProperty("username", "root");
         properties.setProperty("password", "123456");
 
         Connection connect = driver.connect(url, properties);
@@ -93,7 +93,7 @@ public class StatementTest {
                 String department = resultSet.getString("department");
                 System.out.println(name + " == " + work + " == " + age + " == " + department +"\r\n");
             }
-            
+
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {

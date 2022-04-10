@@ -24,7 +24,7 @@ public class PropertiesTest {
     public void saveProperties() throws IOException {
         Properties properties = new Properties();
 
-        properties.setProperty("user","if dom");
+        properties.setProperty("username","if dom");
         properties.setProperty("pwd","123");
 
         properties.store(new FileOutputStream("D:\\javatest.properties"),"comment 注释内容");
