@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ffe97aa-1a28-4906-8bea-792a8b12257e" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/db/mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/doc1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/c3p0-0.9.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/mysql-connector-java-8.0.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/BaseTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/CollectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/Generic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/GenericHomework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/HashSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/LinkedSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/MapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/collection/PropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/designmode/DecoratorMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/designmode/DynamicAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/designmode/SingleInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/designmode/TemplateMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/dynamicbingding/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/dynamicbingding/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/dynamicbingding/DynamicBinding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/enumration/AnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/enumration/EnumRation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/exercise/EightQueen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/exercise/HanoiTower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/exercise/Migong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/exercise/Recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/extend/Pupil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/extend/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/houserent/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/houserent/HouseRentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/houserent/HouseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/houserent/HouseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/houserent/HouseView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/houserent/TestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/interfacetest/Interface01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/interfacetest/InterfaceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/interfacetest/OnceClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/interfacetest/abstract01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/junit/JunitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/partclass/PartClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polyarr/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polyarr/Polyarr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polyarr/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polyarr/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Food.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/polymorphic/Polymorphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifdom/smallmoney/SmallMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/JdbcTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/StatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/batch/BatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/datasource/ConQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/datasource/Druid_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/BufferedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/FileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/InputStreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/ObjectInputStreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/PropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/ReadWriteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/TransformationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/homework/Homework1Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/homework/Homework1Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/homework/Homework2UDP1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/homework/Homework2UDP2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/CharSocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/CharSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/InetAddressTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/StreamUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/TCPFileUploadClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/TCPFileUploadServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/TcpSocketByteClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/TcpSocketByteServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/ioexercise/networkmain/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/tank/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/upload/StreamUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/upload/UploadClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/network/upload/UploadServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ifdom/demo/DemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\allsofoware\apache-maven-3.8.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="27dvr7VE07GbrproM4nUo64322H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cool/src/main/resources" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project_java\ifCool\cool\src\main\resources" />
+      <recent name="D:\project_java\ifCool\cool\src\main\java\com\cool" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project_java\ifCool\cool" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.UserDaoDemo">
+    <configuration name="JdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.JdbcTest" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cool.demo.UserDaoDemo" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cool.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.batch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdbc.batch" />
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.batch.BatchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest.connect03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.JdbcTest" />
+      <option name="METHOD_NAME" value="connect03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest.connect05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.JdbcTest" />
+      <option name="METHOD_NAME" value="connect05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cool.CoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javabase" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifdom.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.UserDaoDemo" />
+        <item itemvalue="JUnit.JdbcTest.connect05" />
+        <item itemvalue="JUnit.JdbcTest.connect03" />
+        <item itemvalue="JUnit.BatchTest" />
+        <item itemvalue="应用程序.JdbcTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3ffe97aa-1a28-4906-8bea-792a8b12257e" name="变更" comment="" />
+      <created>1649662973047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649662973047</updated>
+      <workItem from="1649662974299" duration="79000" />
+      <workItem from="1649663126742" duration="787000" />
+      <workItem from="1649663943077" duration="342000" />
+      <workItem from="1649664434528" duration="992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
