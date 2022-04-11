@@ -1,9 +1,9 @@
 # 工程简介
 
 ```java
-package com.ifcool;
+package com.cool;
 
-import com.ifcool.dao.UserDao;
+import com.cool.dao.UserDao;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -29,13 +29,13 @@ public class UserDaoDemo {
 ```xml
 <!-- scope 作用域-->
 <!--生命周期-->
-<bean id="userDao" class="com.ifcool.dao.impl.UserDaoImpl" scope="singleton" init-method="init" destroy-method="destroy"></bean>
+<bean id="userDao" class="com.cool.dao.impl.UserDaoImpl" scope="singleton" init-method="init" destroy-method="destroy"></bean>
 
 <!-- 构造创建 -->
-<bean id="userDao" class="com.ifcool.dao.impl.UserDaoImpl" factory-method="com.ifcool.factory.StaticFactory"></bean>
+<bean id="userDao" class="com.cool.dao.impl.UserDaoImpl" factory-method="com.cool.factory.StaticFactory"></bean>
 
 <!-- 实例创建 -->
-<bean id="factory" class="com.ifcool.factory.DynamicFactory"></bean>
+<bean id="factory" class="com.cool.factory.DynamicFactory"></bean>
 <bean id="userDao" factory-bean="factory" factory-method="getUserDao"></bean>
 ```
 scope:
