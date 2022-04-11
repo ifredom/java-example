@@ -1,13 +1,10 @@
-package com.cool.demo;
+package com.cool.web;
 
-import com.cool.Application;
 import com.cool.config.SpringConfiguration;
 import com.cool.dao.UserDao;
 import com.cool.service.UserService;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.junit.Test;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

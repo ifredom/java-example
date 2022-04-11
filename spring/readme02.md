@@ -121,3 +121,11 @@ public class SpringConfiguration {
 ## AOP 在 Spring 中的作用
 
 3种使用注解方式
+
+
+
+## Spring 集成 Junit
+
+https://www.bilibili.com/video/BV1WZ4y1P7Bp?p=37
+
+未成功，先跳过
