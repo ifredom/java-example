@@ -7,6 +7,8 @@ import java.lang.reflect.Proxy;
 
 /**
  * 动态代理
+ *
+ * 代理的是接口
  */
 public class DynamicAgent {
     public static void main(String[] args) {

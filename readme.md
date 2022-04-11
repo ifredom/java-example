@@ -3,6 +3,11 @@
 - javase java11
 - spring java8
 
+## 进度
+
+- 坦克大战跳过
+- spring AOP未深入
+
 ## debug
 
 - F7 单步跳入
