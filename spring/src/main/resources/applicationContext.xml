@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+             http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
-<!--    <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">-->
-<!--        <property name="username" value="zhangsan"/>-->
-<!--        <property name="age" value="18"/>-->
-<!--    </bean>-->
+    <!--    <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">-->
+    <!--        <property name="username" value="zhangsan"/>-->
+    <!--        <property name="age" value="18"/>-->
+    <!--    </bean>-->
+
+<!--        <bean id="userService" class="com.cool.service.UserServiceImpl">-->
+<!--            <constructor-arg name="userDao" ref="userDao" />-->
+<!--        </bean>-->
+
+<!--        <context:property-placeholder location="classpath:jdbc.properties"/>-->
+
+<!--        <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+<!--            <property name="driverClass" value="${jdbc.driver}"/>-->
+<!--            <property name="jdbcUrl" value="${jdbc.url}"/>-->
+<!--            <property name="user" value="${jdbc.username}"/>-->
+<!--            <property name="password" value="${jdbc.password}"/>-->
+<!--        </bean>-->
 
 
-    <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">
-        <property name="stringList">
-            <list>
-                <value>aaa</value>
-                <value>bbb</value>
-                <value>ccc</value>
-            </list>
-        </property>
-        <property name="userMap">
-            <map>
-                <entry key="user1" value-ref="user1"></entry>
-                <entry key="user2" value-ref="user2"></entry>
-            </map>
-        </property>
+    <!--   配置组件扫描 -->
+<!--        <context:component-scan base-package="com.cool"/>-->
 
-        <property name="properties">
-            <props>
-                <prop key="p1">ppp1</prop>
-                <prop key="p2">ppp2</prop>
-                <prop key="p3">ppp3</prop>
-            </props>
-        </property>
-    </bean>
-    <bean id="user1" class="com.cool.domain.User">
-        <property name="name" value="lucy"></property>
-        <property name="addr" value="tianjin"></property>
-    </bean>
-    <bean id="user2" class="com.cool.domain.User">
-        <property name="name" value="lucy"></property>
-        <property name="addr" value="tianjin"></property>
-    </bean>
-
-    <bean id="userService" class="com.cool.service.UserServiceImpl">
-        <constructor-arg name="userDao" ref="userDao" />
-    </bean>
 </beans>

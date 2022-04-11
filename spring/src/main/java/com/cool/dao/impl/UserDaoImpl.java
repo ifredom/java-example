@@ -2,11 +2,17 @@ package com.cool.dao.impl;
 
 import com.cool.dao.UserDao;
 import com.cool.domain.User;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
+// <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">
+
+//@Component("userDao")
+@Repository("userDao")
 public class UserDaoImpl implements UserDao {
 
     private List<String> stringList;
@@ -26,9 +32,9 @@ public class UserDaoImpl implements UserDao {
     }
 
     public String save() {
-        System.out.println("stringList: " + stringList);
-        System.out.println("userMap: " + userMap);
-        System.out.println("properties: " + properties);
+//        System.out.println("stringList: " + stringList);
+//        System.out.println("userMap: " + userMap);
+//        System.out.println("properties: " + properties);
         System.out.println("保存用户");
         return "保存用户";
     }

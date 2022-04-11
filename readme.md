@@ -1,7 +1,7 @@
 # 模块
 
-- javase java11
-- spring java8
+- javabase java8  spring initializr
+- spring java8  spring initializr
 
 ## 进度
 
