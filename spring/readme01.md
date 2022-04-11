@@ -78,3 +78,132 @@ public class UserServiceImpl implements UserService {
     </bean>
 </beans>
 ```
+
+
+## 注入普通属性
+
+使用set方法注入普通属性 username 和age
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">
+        <property name="username" value="zhangsan"/>
+        <property name="age" value="18"/>
+    </bean>
+</beans>
+```
+```java
+package com.cool.dao.impl;
+
+import com.cool.dao.UserDao;
+
+public class UserDaoImpl implements UserDao {
+
+    private String username;
+    private int age;
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String save() {
+        System.out.println("额外做一些事情......"+username+age);
+        System.out.println("保存用户");
+        return "保存用户";
+    }
+}
+
+```
+
+## 注入List,Map， 集合
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">-->
+<!--        <property name="username" value="zhangsan"/>-->
+<!--        <property name="age" value="18"/>-->
+<!--    </bean>-->
+
+
+    <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">
+        <property name="stringList">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+        <property name="userMap">
+            <map>
+                <entry key="user1" value-ref="user1"></entry>
+                <entry key="user2" value-ref="user2"></entry>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="p1">ppp1</prop>
+                <prop key="p2">ppp2</prop>
+                <prop key="p3">ppp3</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="user1" class="com.cool.domain.User">
+        <property name="name" value="lucy"></property>
+        <property name="addr" value="tianjin"></property>
+    </bean>
+    <bean id="user2" class="com.cool.domain.User">
+        <property name="name" value="lucy"></property>
+        <property name="addr" value="tianjin"></property>
+    </bean>
+
+    <bean id="userService" class="com.cool.service.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao" />
+    </bean>
+</beans>
+```
+
+```java
+package com.cool.domain;
+
+public class User {
+    private String name;
+    private String addr;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public void setAddr(String addr) {
+        this.addr = addr;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", addr='" + addr + '\'' +
+                '}';
+    }
+}
+
+```

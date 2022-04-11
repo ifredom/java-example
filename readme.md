@@ -17,6 +17,7 @@
 - ctrl + d 复制当前行
 - shift + enter 向下新建一行
 - ctrl + alt + enter 向上新建一行
+- ctrl + shift + R 全局替换
 - ctrl + alt + T try...catch 快速生成
 - 先按下 home 或者 end , shift + home / shift +end 选中当前行
 - 迭代器快捷键 itit ,方式二 ： 大写的 I +回车 生成增强 for 循环
