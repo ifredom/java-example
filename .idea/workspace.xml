@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/java/com/springconfig/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/java/com/springconfig/controller/ConfigPropertiesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis/src/main/java/com/mybatis/dao/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis/src/main/java/com/mybatis/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/java/com/springconfig/dao/BookDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-spring-config/src/test/java/com/springconfig/CommonSpringConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-spring-config/src/test/java/com/springconfig/CommonSpringConfigApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../../allsofoware/apache-maven/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\allsofoware\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -48,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -57,6 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-mybatis" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,20 +74,7 @@
       <recent name="D:\Aworkspace\A_project_java\free\common-se\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommonSpringConfigApplication">
-    <configuration name="JdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdbc.JdbcTest" />
-      <module name="common-se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ComonMybatisApplicationTests.contextLoads">
     <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cool.web.UserDaoDemo" />
       <module name="common-spring-base" />
@@ -96,33 +88,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcTest.connect05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-se" />
+    <configuration name="CommonSpringConfigApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-spring-config" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jdbc.*" />
+          <option name="PATTERN" value="com.springconfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.jdbc.JdbcTest" />
-      <option name="METHOD_NAME" value="connect05" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.springconfig" />
+      <option name="MAIN_CLASS_NAME" value="com.springconfig.CommonSpringConfigApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringHunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-spring-base" />
+    <configuration name="ComonMybatisApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comon-mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cool.test.*" />
+          <option name="PATTERN" value="com.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cool.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cool.test.SpringHunitTest" />
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.ComonMybatisApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComonMybatisApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.ComonMybatisApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComonMybatisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comon-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.ComonMybatisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,26 +170,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="common-se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ifdom.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifdom.application.DemoApplication" />
+    <configuration name="CommonSpringMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-spring-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cool.commonspringmybatis.CommonSpringMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComonMybatisApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="comon-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis.ComonMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComonMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis.ComonMybatisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComonMybatisApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ComonMybatisApplicationTests (1)" />
+        <item itemvalue="JUnit.ComonMybatisApplicationTests" />
+        <item itemvalue="JUnit.CommonSpringConfigApplicationTests" />
         <item itemvalue="应用程序.UserDaoDemo" />
-        <item itemvalue="JUnit.SpringHunitTest" />
-        <item itemvalue="JUnit.JdbcTest.connect05" />
-        <item itemvalue="应用程序.JdbcTest" />
-        <item itemvalue="Spring Boot.DemoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +213,7 @@
       <workItem from="1649795202621" duration="1065000" />
       <workItem from="1649796289225" duration="335000" />
       <workItem from="1649796641337" duration="579000" />
-      <workItem from="1649797279986" duration="2525000" />
+      <workItem from="1649797279986" duration="4594000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: comon-mybatis
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://localhost:3306/firstdemo?serverTimezone=UTC
+    username: root
+    password: 123456

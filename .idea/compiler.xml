@@ -8,14 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-spring-base" />
-        <module name="common-spring-config" />
         <module name="common-se" />
+        <module name="comon-mybatis" />
+        <module name="common-spring-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-mybatis" target="1.8" />
       <module name="common-se" target="1.8" />
       <module name="common-spring-base" target="1.8" />
       <module name="common-spring-config" target="1.8" />
+      <module name="common-spring-mybatis" target="1.8" />
+      <module name="comon-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
