@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-mybatis/src/main/java/com/mybatis/dao/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mybatis/src/main/java/com/mybatis/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/java/com/springconfig/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/commonmybatisplus/dao/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/commonmybatisplus/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-spring-config/src/test/java/com/springconfig/CommonSpringConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-spring-config/src/test/java/com/springconfig/CommonSpringConfigApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/commonmybatisplus" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,21 +67,27 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Aworkspace\A_project_java\free\common-mybatis-plus\src\main\java\com\commonmybatisplus" />
+      <recent name="D:\Aworkspace\A_project_java\free\common-mybatis-plus\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Aworkspace\A_project_java\free\common-se\src" />
       <recent name="D:\Aworkspace\A_project_java\free\common-se\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComonMybatisApplicationTests.contextLoads">
-    <configuration name="UserDaoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cool.web.UserDaoDemo" />
-      <module name="common-spring-base" />
+  <component name="RunManager" selected="JUnit.CommonMybatisPlusApplicationTests">
+    <configuration name="CommonMybatisPlusApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-mybatis-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cool.web.*" />
+          <option name="PATTERN" value="com.commonmybatisplus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.commonmybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.commonmybatisplus.CommonMybatisPlusApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommonMybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-mybatis-plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.commonmybatisplus.CommonMybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommonSeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="common-se" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cool.CommonSeApplication" />
@@ -193,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommonMybatisPlusApplicationTests" />
         <item itemvalue="JUnit.ComonMybatisApplicationTests.contextLoads" />
         <item itemvalue="JUnit.ComonMybatisApplicationTests (1)" />
         <item itemvalue="JUnit.ComonMybatisApplicationTests" />
         <item itemvalue="JUnit.CommonSpringConfigApplicationTests" />
-        <item itemvalue="应用程序.UserDaoDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +224,7 @@
       <workItem from="1649795202621" duration="1065000" />
       <workItem from="1649796289225" duration="335000" />
       <workItem from="1649796641337" duration="579000" />
-      <workItem from="1649797279986" duration="4594000" />
+      <workItem from="1649797279986" duration="6355000" />
     </task>
     <servers />
   </component>

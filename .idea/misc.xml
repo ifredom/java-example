@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/common-spring-config/pom.xml" />
         <option value="$PROJECT_DIR$/comon-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/common-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/common-mybatis-plus/pom.xml" />
       </list>
     </option>
   </component>
