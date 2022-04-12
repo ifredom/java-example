@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/common-se/pom.xml" />
         <option value="$PROJECT_DIR$/common-spring-base/pom.xml" />
+        <option value="$PROJECT_DIR$/common-spring-config/pom.xml" />
       </list>
     </option>
   </component>

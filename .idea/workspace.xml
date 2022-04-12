@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="" />
+    <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/java/com/springconfig/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/java/com/springconfig/controller/ConfigPropertiesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-spring-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,6 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="27iFY2LVRBE9Wg3oek9Ido9Stbh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +69,7 @@
       <recent name="D:\Aworkspace\A_project_java\free\common-se\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.UserDaoDemo">
+  <component name="RunManager" selected="Spring Boot.CommonSpringConfigApplication">
     <configuration name="JdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jdbc.JdbcTest" />
       <module name="common-se" />
@@ -120,6 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommonSpringConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common-spring-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springconfig.CommonSpringConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="common-se" />
       <extension name="coverage">
@@ -154,10 +182,23 @@
       <workItem from="1649795048486" duration="137000" />
       <workItem from="1649795202621" duration="1065000" />
       <workItem from="1649796289225" duration="335000" />
+      <workItem from="1649796641337" duration="579000" />
+      <workItem from="1649797279986" duration="2525000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

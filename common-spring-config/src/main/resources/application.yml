@@ -1,0 +1,22 @@
+server:
+  port: 9000
+  servlet:
+#    设置根目录
+    context-path: /test123
+
+
+spring:
+  application:
+    name: common-spring-config
+
+datasource:
+  username: "root"
+  password: "123456"
+  driver: "com.mysql.cj.jdbc.Driver"
+  url: "jdbc:mysql://localhost:3306/firstdemo?rewriteBatchedStatements=true"
+
+baseDir: c:\win10
+
+city:
+  name: "beijing"
+  base: ${baseDir}
