@@ -1,6 +1,6 @@
-package com.cool.dao.impl;
+package org.doomcool.dao.impl;
 
-import com.cool.dao.UserDao;
+import org.doomcool.dao.UserDao;
 // <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">
 
 public class UserDaoImpl implements UserDao {

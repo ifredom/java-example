@@ -1,4 +1,4 @@
-package com.cool.service;
+package org.doomcool.service;
 
 public interface UserService {
      void save();

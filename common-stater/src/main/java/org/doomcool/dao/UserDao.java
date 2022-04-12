@@ -1,4 +1,4 @@
-package com.cool.dao;
+package org.doomcool.dao;
 
 public interface UserDao {
     public String save();

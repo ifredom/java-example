@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/common-javase/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-stater/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-stater/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-webapp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-webapp/src/main/resources" charset="UTF-8" />
   </component>

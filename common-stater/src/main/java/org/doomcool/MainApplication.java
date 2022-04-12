@@ -1,6 +1,6 @@
-package com.cool;
+package org.doomcool;
 
-import com.cool.service.UserService;
+import org.doomcool.service.UserService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainApplication {

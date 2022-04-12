@@ -5,12 +5,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
              http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
-        <bean id="userDao" class="com.cool.dao.impl.UserDaoImpl">
+        <bean id="userDao" class="org.doomcool.dao.impl.UserDaoImpl">
             <property name="username" value="zhangsan"/>
             <property name="age" value="18"/>
         </bean>
 
-        <bean id="userService" class="com.cool.service.UserServiceImpl">
+        <bean id="userService" class="org.doomcool.service.UserServiceImpl">
             <constructor-arg name="userDao" ref="userDao" />
         </bean>
 

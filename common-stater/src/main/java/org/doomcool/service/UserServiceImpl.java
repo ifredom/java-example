@@ -1,6 +1,6 @@
-package com.cool.service;
+package org.doomcool.service;
 
-import com.cool.dao.UserDao;
+import org.doomcool.dao.UserDao;
 
 public class UserServiceImpl implements UserService {
 
