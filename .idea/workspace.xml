@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05954552-77c2-4f57-bfb9-1bd9a39547ab" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-springmvc/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-springmvc/src/main/java/com/springmvc/mvc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-springmvc/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-springmvc/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-springmvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/com/ifdom/application/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/com/ifdom/application/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/com/javase/CommonJavaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/main/java/com/jdbc/JdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/main/java/com/jdbc/JdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-javase/src/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-javase/src/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/java/com/cool/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/java/com/cool/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/java/com/cool/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/java/com/cool/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/java/com/cool/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-webapp/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-springmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-springmvc/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -71,11 +62,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-springmvc/src/main/webapp" />
+    <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.3074205" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +82,7 @@
       <recent name="com.ifdom.application" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.MainApplication">
+  <component name="RunManager" selected="Tomcat 服务器.springmvc">
     <configuration name="ConQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jdbc.datasource.ConQuestion" />
       <module name="common-javase" />
@@ -188,6 +179,107 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="springmvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="common-webapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/common_webapp_springmvc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f3563c82-f066-46c6-8406-68218818fe36" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61325" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="common-webapp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JdbcTest.connect02" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.CommonJavaseApplication" />
+      <item itemvalue="Spring Boot.CommonSpringApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Tomcat 服务器.springmvc" />
+      <item itemvalue="应用程序.ConQuestion" />
+      <item itemvalue="应用程序.Druid_" />
+      <item itemvalue="应用程序.DynamicAgent" />
+      <item itemvalue="应用程序.MainApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.MainApplication" />
@@ -209,7 +301,8 @@
       <workItem from="1649732649296" duration="20000" />
       <workItem from="1649732732089" duration="51000" />
       <workItem from="1649732805455" duration="5373000" />
-      <workItem from="1649745266401" duration="159000" />
+      <workItem from="1649745266401" duration="1020000" />
+      <workItem from="1649746320455" duration="3677000" />
     </task>
     <servers />
   </component>
