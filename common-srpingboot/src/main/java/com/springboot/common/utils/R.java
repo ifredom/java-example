@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.http.HttpStatus;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Data
@@ -39,6 +40,12 @@ public class R extends HashMap<String, Object> {
         r.put("data", map);
         return r;
     }
+    public static R ok(List list) {
+        R r = new R();
+        r.put("data", list);
+        return r;
+    }
+
 
     public static R ok() {
         return new R();

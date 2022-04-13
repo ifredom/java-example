@@ -1,8 +1,8 @@
 server:
-  port: 9000
+  port: 9500
   servlet:
     #    设置根目录
-    context-path: /test123
+    context-path: /
 
 
 spring:

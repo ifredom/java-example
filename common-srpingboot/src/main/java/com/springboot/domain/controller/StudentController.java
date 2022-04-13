@@ -9,6 +9,7 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,48 +24,44 @@ public class StudentController {
 
     @GetMapping
     public R getAll() {
-        Map<String, Object> map = new HashMap<>();
-        map.put("data", iStudentService.list());
-        return R.ok(map);
+        return R.ok(iStudentService.list());
     }
 
 
     @PostMapping
-    public R save(@RequestBody StudentEntity studentEntity) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", iStudentService.selfDefineFun1(studentEntity));
-        return R.ok(map);
+    public R save(@RequestBody StudentEntity studentEntity) throws IOException {
+
+        if (true) throw new IOException();
+        iStudentService.selfDefineFun1(studentEntity);
+        return R.ok();
     }
 
     @PutMapping
     public R update(@RequestBody StudentEntity studentEntity) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", iStudentService.updateById(studentEntity));
-        return R.ok(map);
+        iStudentService.updateById(studentEntity);
+        return R.ok();
     }
 
     @DeleteMapping("{id}")
     public R delete(@PathVariable Integer id) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", iStudentService.selfDefineFun2(id));
-        return R.ok(map);
+
+        boolean result = iStudentService.selfDefineFun2(id);
+        return result ? R.ok() : R.error("删除失败");
     }
 
     // http://localhost/book/2
     @GetMapping("{id}")
     public R getById(@PathVariable Integer id) {
-        Map<String, Object> map = new HashMap<>();
-        map.put("data", iStudentService.getById(id));
-        return R.ok(map);
+
+        iStudentService.getById(id);
+        return R.ok();
     }
 
     // http://localhost/book/2
     @GetMapping("{currentPage}/{pageSize}")
-    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
-
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", 0);
-        map.put("data", iStudentService.getPage(currentPage, pageSize));
-        return R.ok(map);
+    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize, StudentEntity student) {
+        System.out.println("============" + student);
+        IPage<StudentEntity> page = iStudentService.getPage(currentPage, pageSize, student);
+        return R.ok(page.getRecords());
     }
 }
