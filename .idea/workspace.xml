@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/readme02.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -14,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +65,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MySQL, MariaDB" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +83,7 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IStudentServiceTest.selectPage">
+  <component name="RunManager" selected="Spring Boot.CommonSrpingbootApplication">
     <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -238,7 +243,8 @@
       <workItem from="1649796641337" duration="579000" />
       <workItem from="1649797279986" duration="9579000" />
       <workItem from="1649809403969" duration="1723000" />
-      <workItem from="1649811154763" duration="21741000" />
+      <workItem from="1649811154763" duration="23129000" />
+      <workItem from="1649867248814" duration="833000" />
     </task>
     <servers />
   </component>
@@ -255,16 +261,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

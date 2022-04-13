@@ -24,6 +24,8 @@ public class StudentController {
 
     @GetMapping
     public R getAll() {
+        System.out.println("test hot reploy1111111");
+        System.out.println("test hot reploy2");
         return R.ok(iStudentService.list());
     }
 

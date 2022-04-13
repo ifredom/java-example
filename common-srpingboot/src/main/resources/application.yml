@@ -1,5 +1,5 @@
 server:
-  port: 9500
+  port: 9501
   servlet:
     #    设置根目录
     context-path: /
@@ -25,6 +25,9 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 # 日志模板
-logging:
-  pattern:
-    console: "%d %clr(%5p) ---- [%16t] %clr(%-40.40c){cyan} : %m %n"
+#logging:
+#  pattern:
+#    console: "%d %clr(%5p) ---- [%16t] %clr(%-40.40c){cyan} : %m %n"
+#  file:
+#    name: server.log
+

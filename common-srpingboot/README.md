@@ -2,10 +2,10 @@
 
 - Mybatis 配置-日志-拦截器
 
-
 ## Dao数据层书写
 
 第一步定义 Entity
+
 ```java
 package com.springboot.domain.entity;
 
@@ -44,6 +44,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface StudentDao extends BaseMapper<StudentEntity> {
 }
 ```
+
 ## Service业务层书写
 
 定义 Service:
@@ -61,9 +62,8 @@ public interface IStudentService extends IService<StudentEntity> {
 
 ```
 
-
-实现ServiceImpl: 
-固定写法， XXX 继承 ServiceImpl<Dao类，Entity实体类> implements  IStudentService 自定义接口
+实现ServiceImpl:
+固定写法， XXX 继承 ServiceImpl<Dao类，Entity实体类> implements IStudentService 自定义接口
 
 ```java
 package com.springboot.domain.service.impl;
@@ -89,22 +89,38 @@ public class IStudentServiceImpl extends ServiceImpl<StudentDao, StudentEntity> 
 }
 
 ```
+
 ## Controller 表现层 书写
 
-- @RestController 
-  - 相当于 @Controller + @ResponseBody 两个注解的结合，
-  - 返回json数据不需要在方法前面加@ResponseBody注解
-  - 一旦使用 @RestController 这个注解，就不能返回jsp,html页面，视图解析器无法解析jsp,html页面
+- @RestController
+    - 相当于 @Controller + @ResponseBody 两个注解的结合，
+    - 返回json数据不需要在方法前面加@ResponseBody注解
+    - 一旦使用 @RestController 这个注解，就不能返回jsp,html页面，视图解析器无法解析jsp,html页面
 
 
 - @RequestMapping("/students") 定义接口访问地址
-  - 根据类型  @GetMapping 查询
-  - 根据类型  @PostMapping 新增
-  - 根据类型  @PutMapping 更新
-  - 根据类型  @DeleteMapping 删除
+    - 根据类型 @GetMapping 查询
+    - 根据类型 @PostMapping 新增
+    - 根据类型 @PutMapping 更新
+    - 根据类型 @DeleteMapping 删除
 
+### springboot 配置
 
-### 
 [spring yml配置文件](https://www.bilibili.com/video/BV15b4y1a7yG?p=60)
+
 - 配置文件一共四级，默认固定名称application.yml
 - springboot环境优先级低于 maven中的 profiles 环境变量
+
+### 热部署
+
+- 设置-高级设置-编译器 勾选
+- 添加一个坐标
+（突然很慢，需要接近10秒）
+```xml
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+
+```
