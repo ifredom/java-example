@@ -8,6 +8,14 @@
 - 坦克大战跳过
 - spring AOP未深入
 
+## SpringBoot 整合案例开发流程
+
+- 实体类--使用lombok快速制作
+- Dao - 整合MyBatis 开发数据层
+- Service - 整合MyBatis 开发业务层
+- Controller - 基于 Restful 开发前后端调用协议
+- 页面 - 前端
+- 异常处理 + 按条件查询（调整controller，Service）
 ## debug
 
 - F7 单步跳入

@@ -12,6 +12,7 @@
         <module name="common-mybatis-plus" />
         <module name="comon-mybatis" />
         <module name="common-spring-config" />
+        <module name="common-srpingboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="common-spring-base" target="1.8" />
       <module name="common-spring-config" target="1.8" />
       <module name="common-spring-mybatis" target="1.8" />
+      <module name="common-srpingboot" target="1.8" />
       <module name="comon-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>

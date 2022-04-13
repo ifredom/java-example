@@ -8,15 +8,11 @@ spring:
       username: root
       password: 123456
 
-#  datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    name: defaultDataSource
-#    url: jdbc:mysql://localhost:3306/firstdemo?serverTimezone=UTC
-#    username: root
-#    password: 123456
-
 mybatis-plus:
   global-config:
     db-config:
       table-prefix: ta_
-
+      id-type: auto
+  configuration:
+#    开启MP日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
