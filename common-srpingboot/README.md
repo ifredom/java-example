@@ -3,7 +3,7 @@
 - Mybatis 配置-日志-拦截器
 
 
-# Dao层书写
+## Dao数据层书写
 
 第一步定义 Entity
 ```java
@@ -44,7 +44,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface StudentDao extends BaseMapper<StudentEntity> {
 }
 ```
-# Service层书写
+## Service业务层书写
 
 定义 Service:
 固定写法： interface XXX extends IService<实体类Entity>
@@ -89,3 +89,16 @@ public class IStudentServiceImpl extends ServiceImpl<StudentDao, StudentEntity> 
 }
 
 ```
+## Controller 表现层 书写
+
+- @RestController 
+  - 相当于 @Controller + @ResponseBody 两个注解的结合，
+  - 返回json数据不需要在方法前面加@ResponseBody注解
+  - 一旦使用 @RestController 这个注解，就不能返回jsp,html页面，视图解析器无法解析jsp,html页面
+
+
+- @RequestMapping("/students") 定义接口访问地址
+  - 根据类型  @GetMapping 查询
+  - 根据类型  @PostMapping 新增
+  - 根据类型  @PutMapping 更新
+  - 根据类型  @DeleteMapping 删除

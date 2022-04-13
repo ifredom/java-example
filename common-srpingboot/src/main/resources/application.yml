@@ -1,3 +1,10 @@
+server:
+  port: 9000
+  servlet:
+    #    设置根目录
+    context-path: /test123
+
+
 spring:
   application:
     name: comon-mybatis

@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/IStudentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IStudentServiceTest">
+  <component name="RunManager" selected="Spring Boot.CommonSrpingbootApplication">
     <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -240,7 +240,7 @@
       <workItem from="1649796641337" duration="579000" />
       <workItem from="1649797279986" duration="9579000" />
       <workItem from="1649809403969" duration="1723000" />
-      <workItem from="1649811154763" duration="6033000" />
+      <workItem from="1649811154763" duration="10435000" />
     </task>
     <servers />
   </component>

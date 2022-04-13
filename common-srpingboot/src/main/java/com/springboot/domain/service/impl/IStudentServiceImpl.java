@@ -13,9 +13,18 @@ public class IStudentServiceImpl extends ServiceImpl<StudentDao, StudentEntity> 
     @Autowired
     private StudentDao studentDao;
 
-    // 其他业务
-    public boolean otherService(StudentEntity student) {
-        // do other something
-        return false;
+    @Override
+    public boolean selfDefineFun1(StudentEntity student) {
+        return studentDao.insert(student) > 0;
     }
+
+    @Override
+    public boolean selfDefineFun2(Integer id) {
+        return studentDao.deleteById(id) > 0;
+    }
+
+    public StudentEntity getById(Integer id) {
+        return studentDao.selectById(id);
+    }
+
 }
