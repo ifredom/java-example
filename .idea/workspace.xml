@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/StudentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/StudentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/IStudentServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/dao/StudentDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +76,26 @@
       <recent name="D:\Aworkspace\A_project_java\free\common-se\src" />
       <recent name="D:\Aworkspace\A_project_java\free\common-se\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentServiceTest.selectPage">
+  <component name="RunManager" selected="JUnit.IStudentServiceTest">
+    <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-srpingboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.IStudentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -93,22 +107,6 @@
       <option name="PACKAGE_NAME" value="com.springboot.service" />
       <option name="MAIN_CLASS_NAME" value="com.springboot.service.StudentServiceTest" />
       <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentServiceTest.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-srpingboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.service.StudentServiceTest" />
-      <option name="METHOD_NAME" value="select" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IStudentServiceTest" />
         <item itemvalue="JUnit.StudentServiceTest.selectPage" />
         <item itemvalue="JUnit.StudentServiceTest.selectAll" />
         <item itemvalue="JUnit.StudentServiceTest.update" />
         <item itemvalue="JUnit.StudentServiceTest.save" />
-        <item itemvalue="JUnit.StudentServiceTest.select" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +240,7 @@
       <workItem from="1649796641337" duration="579000" />
       <workItem from="1649797279986" duration="9579000" />
       <workItem from="1649809403969" duration="1723000" />
-      <workItem from="1649811154763" duration="4271000" />
+      <workItem from="1649811154763" duration="6033000" />
     </task>
     <servers />
   </component>

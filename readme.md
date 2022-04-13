@@ -1,7 +1,7 @@
 # 模块
 
-- javabase java8  spring initializr
-- spring java8  spring initializr
+- javabase java8 spring initializr
+- spring java8 spring initializr
 
 ## 进度
 
@@ -16,6 +16,7 @@
 - Controller - 基于 Restful 开发前后端调用协议
 - 页面 - 前端
 - 异常处理 + 按条件查询（调整controller，Service）
+
 ## debug
 
 - F7 单步跳入
@@ -27,6 +28,7 @@
 - ctrl + alt + l/ctrl + alt + f 格式化代码，保持跟 Vscode 一致
 - alt+ insert 快速创建构造函数
 - alt + 回车 快速创建变量名称
+- ctrl + F12 查看当前类方法
 - ctrl + d 复制当前行
 - shift + enter 向下新建一行
 - ctrl + alt + enter 向上新建一行
@@ -35,8 +37,8 @@
 - 先按下 home 或者 end , shift + home / shift +end 选中当前行
 - 迭代器快捷键 itit ,方式二 ： 大写的 I +回车 生成增强 for 循环
 
-
 ### Java招聘要求
+
 > 1-3年Java招聘要求
 
 1. JAVA基础知识扎实，理解I/O、多线程、集合、网络等基础框架
