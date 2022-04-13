@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/readme02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/WebTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../allsofoware/apache-maven/apache-maven-3.6.3/mvn_repository/org/springframework/spring-test/5.2.12.RELEASE/spring-test-5.2.12.RELEASE.jar!/org/springframework/test/web/servlet/RequestBuilder.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +82,7 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommonSrpingbootApplication">
+  <component name="RunManager" selected="JUnit.WebTest.testWeb">
     <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -147,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTest.testWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="PATTERN" value="com.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.service.StudentServiceTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.WebTest" />
+      <option name="METHOD_NAME" value="testWeb(org.springframework.test.web.servlet.MockMvc)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebTest.testWeb" />
         <item itemvalue="JUnit.IStudentServiceTest.selectPage" />
         <item itemvalue="JUnit.IStudentServiceTest" />
         <item itemvalue="JUnit.StudentServiceTest.selectPage" />
         <item itemvalue="JUnit.StudentServiceTest.selectAll" />
-        <item itemvalue="JUnit.StudentServiceTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +243,7 @@
       <workItem from="1649797279986" duration="9579000" />
       <workItem from="1649809403969" duration="1723000" />
       <workItem from="1649811154763" duration="23129000" />
-      <workItem from="1649867248814" duration="833000" />
+      <workItem from="1649867248814" duration="1641000" />
     </task>
     <servers />
   </component>
