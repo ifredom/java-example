@@ -23,3 +23,8 @@ mybatis-plus:
   configuration:
 #    开启MP日志
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 日志模板
+logging:
+  pattern:
+    console: "%d %clr(%5p) ---- [%16t] %clr(%-40.40c){cyan} : %m %n"

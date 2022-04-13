@@ -41,7 +41,7 @@ public class StudentController {
         iStudentService.updateById(studentEntity);
         return R.ok();
     }
-
+    // http://localhost/students/2
     @DeleteMapping("{id}")
     public R delete(@PathVariable Integer id) {
 
@@ -49,7 +49,7 @@ public class StudentController {
         return result ? R.ok() : R.error("删除失败");
     }
 
-    // http://localhost/book/2
+    // http://localhost/students/2
     @GetMapping("{id}")
     public R getById(@PathVariable Integer id) {
 
@@ -57,7 +57,7 @@ public class StudentController {
         return R.ok();
     }
 
-    // http://localhost/book/2
+    // http://localhost/students/2/10
     @GetMapping("{currentPage}/{pageSize}")
     public R getPage(@PathVariable int currentPage, @PathVariable int pageSize, StudentEntity student) {
         System.out.println("============" + student);

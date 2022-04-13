@@ -102,3 +102,9 @@ public class IStudentServiceImpl extends ServiceImpl<StudentDao, StudentEntity> 
   - 根据类型  @PostMapping 新增
   - 根据类型  @PutMapping 更新
   - 根据类型  @DeleteMapping 删除
+
+
+### 
+[spring yml配置文件](https://www.bilibili.com/video/BV15b4y1a7yG?p=60)
+- 配置文件一共四级，默认固定名称application.yml
+- springboot环境优先级低于 maven中的 profiles 环境变量
