@@ -1,5 +1,7 @@
 package com.springboot.domain.service.impl;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.springboot.domain.dao.StudentDao;
 import com.springboot.domain.entity.StudentEntity;
@@ -21,6 +23,12 @@ public class IStudentServiceImpl extends ServiceImpl<StudentDao, StudentEntity> 
     @Override
     public boolean selfDefineFun2(Integer id) {
         return studentDao.deleteById(id) > 0;
+    }
+
+    @Override
+    public IPage<StudentEntity> getPage(int currentPage, int pageSize) {
+        Page<StudentEntity> page = new Page<>(currentPage, pageSize);
+        return studentDao.selectPage(page, null);
     }
 
     public StudentEntity getById(Integer id) {

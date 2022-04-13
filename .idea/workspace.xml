@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/IStudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/IStudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommonSrpingbootApplication">
+  <component name="RunManager" selected="JUnit.IStudentServiceTest.selectPage">
     <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -96,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IStudentServiceTest.selectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +103,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.service.StudentServiceTest" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.IStudentServiceTest" />
+      <option name="METHOD_NAME" value="selectPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IStudentServiceTest.selectPage" />
         <item itemvalue="JUnit.IStudentServiceTest" />
         <item itemvalue="JUnit.StudentServiceTest.selectPage" />
         <item itemvalue="JUnit.StudentServiceTest.selectAll" />
         <item itemvalue="JUnit.StudentServiceTest.update" />
-        <item itemvalue="JUnit.StudentServiceTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +238,7 @@
       <workItem from="1649796641337" duration="579000" />
       <workItem from="1649797279986" duration="9579000" />
       <workItem from="1649809403969" duration="1723000" />
-      <workItem from="1649811154763" duration="10435000" />
+      <workItem from="1649811154763" duration="11973000" />
     </task>
     <servers />
   </component>

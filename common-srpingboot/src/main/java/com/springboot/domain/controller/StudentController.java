@@ -1,6 +1,7 @@
 package com.springboot.domain.controller;
 
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.springboot.domain.entity.StudentEntity;
 import com.springboot.domain.service.IStudentService;
 import com.sun.org.apache.xpath.internal.operations.Bool;
@@ -41,6 +42,16 @@ public class StudentController {
     // http://localhost/book/2
     @GetMapping("{id}")
     public StudentEntity getById(@PathVariable Integer id) {
+        System.out.println(id);
+
         return iStudentService.getById(id);
+    }
+
+    // http://localhost/book/2
+    @GetMapping("{currentPage}/{pageSize}")
+    public IPage<StudentEntity> getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
+        System.out.println(currentPage);
+        System.out.println(pageSize);
+        return iStudentService.getPage(currentPage, pageSize);
     }
 }
