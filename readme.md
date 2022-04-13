@@ -11,7 +11,7 @@
 ## SpringBoot 整合案例开发流程
 
 - 实体类--使用lombok快速制作
-- Dao - 整合MyBatis 开发数据层
+- Dao - 整合MyBatis 开发数据层，对接数据库
 - Service - 整合MyBatis 开发业务层
 - Controller - 基于 Restful 开发前后端调用协议
 - 页面 - 前端
