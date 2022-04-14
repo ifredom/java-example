@@ -1,7 +1,6 @@
 package com.springboot.common.utils;
 
 import lombok.Data;
-import org.springframework.http.HttpStatus;
 
 import java.util.HashMap;
 import java.util.List;

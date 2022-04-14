@@ -8,8 +8,14 @@ import com.springboot.domain.service.StudentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
+import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
+@Transactional
+
+// @Transactional注解 内含 @Rollback(true)自动回滚
+//@Rollback(false)
 public class IStudentServiceTest {
     @Autowired
     private IStudentService studentService;
@@ -23,7 +29,7 @@ public class IStudentServiceTest {
     @Test
     public void save() {
         StudentEntity student = new StudentEntity();
-        student.setName("tomma2");
+        student.setName("tomma3");
         student.setAge(66);
         studentService.save(student);
     }

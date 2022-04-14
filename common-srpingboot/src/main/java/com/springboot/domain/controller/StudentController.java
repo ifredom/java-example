@@ -5,14 +5,10 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.springboot.common.utils.R;
 import com.springboot.domain.entity.StudentEntity;
 import com.springboot.domain.service.IStudentService;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/students")
