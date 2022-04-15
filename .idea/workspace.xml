@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="集成redis并实现工具类">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/readme03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/QuartzJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/config/QuartzConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/dao/JobDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/JobEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/JobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/JobServiceImpl.java" afterDir="false" />
+    <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="集成 quartz">
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/readme04-mybatis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/MyMetaObjectHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/readme03.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/readme03-quarz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/StudentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/StudentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/StudentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,38 +87,7 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommonSrpingbootApplication">
-    <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-srpingboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.service.IStudentServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IStudentServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-srpingboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.service.IStudentServiceTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentServiceTest.save">
     <configuration name="IStudentServiceTest.selectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -149,6 +115,38 @@
       <option name="PACKAGE_NAME" value="com.springboot.cache" />
       <option name="MAIN_CLASS_NAME" value="com.springboot.cache.RedisTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-srpingboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-srpingboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentServiceTest.save" />
+        <item itemvalue="JUnit.StudentServiceTest.selectAll" />
         <item itemvalue="JUnit.WebTest.testWeb" />
         <item itemvalue="JUnit.RedisTest" />
         <item itemvalue="JUnit.IStudentServiceTest.selectPage" />
-        <item itemvalue="JUnit.IStudentServiceTest.save" />
-        <item itemvalue="JUnit.IStudentServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +259,7 @@
       <workItem from="1650011087264" duration="839000" />
       <workItem from="1650011947749" duration="59000" />
       <workItem from="1650012021848" duration="1931000" />
-      <workItem from="1650017350332" duration="5983000" />
+      <workItem from="1650017350332" duration="12797000" />
     </task>
     <task id="LOCAL-00001" summary="集成redis并实现工具类">
       <created>1649955286581</created>
@@ -270,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649955286581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="集成 quartz">
+      <created>1650036535040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650036535040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +294,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="集成redis并实现工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成redis并实现工具类" />
+    <MESSAGE value="集成 quartz" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成 quartz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
