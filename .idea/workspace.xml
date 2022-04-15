@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/cache/RedisTest.java" afterDir="false" />
+    <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="集成redis并实现工具类">
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/readme03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/QuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/dao/JobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/JobEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/service/impl/JobServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-srpingboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/readme02.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/readme02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/IStudentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/IStudentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +90,7 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest">
+  <component name="RunManager" selected="Spring Boot.CommonSrpingbootApplication">
     <configuration name="IStudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="common-srpingboot" />
       <extension name="coverage">
@@ -228,10 +227,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisTest" />
-        <item itemvalue="JUnit.IStudentServiceTest.save" />
         <item itemvalue="JUnit.WebTest.testWeb" />
+        <item itemvalue="JUnit.RedisTest" />
         <item itemvalue="JUnit.IStudentServiceTest.selectPage" />
+        <item itemvalue="JUnit.IStudentServiceTest.save" />
         <item itemvalue="JUnit.IStudentServiceTest" />
       </list>
     </recent_temporary>
@@ -253,8 +252,25 @@
       <workItem from="1649811154763" duration="23129000" />
       <workItem from="1649867248814" duration="3184000" />
       <workItem from="1649943978545" duration="5913000" />
-      <workItem from="1649954496433" duration="737000" />
+      <workItem from="1649954496433" duration="914000" />
+      <workItem from="1650004758884" duration="1989000" />
+      <workItem from="1650009632731" duration="40000" />
+      <workItem from="1650009821685" duration="331000" />
+      <workItem from="1650010169197" duration="239000" />
+      <workItem from="1650010426429" duration="642000" />
+      <workItem from="1650011087264" duration="839000" />
+      <workItem from="1650011947749" duration="59000" />
+      <workItem from="1650012021848" duration="1931000" />
+      <workItem from="1650017350332" duration="5983000" />
     </task>
+    <task id="LOCAL-00001" summary="集成redis并实现工具类">
+      <created>1649955286581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649955286581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,5 +286,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="集成redis并实现工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成redis并实现工具类" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
