@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 
 @Controller
-@ResponseBody
 @RequestMapping("/jobs")
 public class JobController {
 

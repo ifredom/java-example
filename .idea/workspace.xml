@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798f4ddf-6cb0-4c7d-860d-a5c9a8b3b4a8" name="变更" comment="集成 quartz">
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/readme04-mybatis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/common/utils/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-se/src/main/java/com/ifdom/annotation/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-se/src/main/java/com/ifdom/annotation/FirstAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-se/src/main/java/com/ifdom/annotation/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/readme03.md" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/readme03-quarz.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/entity/StudentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/StudentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/test/java/com/springboot/service/StudentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-srpingboot/src/main/java/com/springboot/domain/controller/JobController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +24,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../allsofoware/apache-maven/apache-maven-3.6.3/mvn_repository/org/springframework/spring-test/5.2.12.RELEASE/spring-test-5.2.12.RELEASE.jar!/org/springframework/test/web/servlet/RequestBuilder.class" root0="SKIP_INSPECTION" />
@@ -65,11 +68,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-srpingboot/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.语言默认值" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -87,19 +90,16 @@
       <recent name="com.springboot.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentServiceTest.save">
-    <configuration name="IStudentServiceTest.selectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-srpingboot" />
+  <component name="RunManager" selected="应用程序.AnnotationTest">
+    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifdom.annotation.AnnotationTest" />
+      <module name="common-se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.service.*" />
+          <option name="PATTERN" value="com.ifdom.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.service.IStudentServiceTest" />
-      <option name="METHOD_NAME" value="selectPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.AnnotationTest" />
         <item itemvalue="JUnit.StudentServiceTest.save" />
         <item itemvalue="JUnit.StudentServiceTest.selectAll" />
         <item itemvalue="JUnit.WebTest.testWeb" />
         <item itemvalue="JUnit.RedisTest" />
-        <item itemvalue="JUnit.IStudentServiceTest.selectPage" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +259,11 @@
       <workItem from="1650011087264" duration="839000" />
       <workItem from="1650011947749" duration="59000" />
       <workItem from="1650012021848" duration="1931000" />
-      <workItem from="1650017350332" duration="12797000" />
+      <workItem from="1650017350332" duration="12869000" />
+      <workItem from="1650289760657" duration="210000" />
+      <workItem from="1650639866209" duration="1563000" />
+      <workItem from="1650641946677" duration="168000" />
+      <workItem from="1650642129627" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="集成redis并实现工具类">
       <created>1649955286581</created>
